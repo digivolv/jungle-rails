@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 ruby "2.3.5"
-
+#Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record
