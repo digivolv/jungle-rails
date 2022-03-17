@@ -2,6 +2,39 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+### The Home Page
+!['main-page']()
+_The main page shows off the catelog of all of the products and supports login/signup functionality._
+
+### My Cart
+!['Cart']()
+_Add, remove, and adjust the quantities of items in your cart as needed._
+
+### Payment Options
+!['Payment'](https://github.com/Vptrinh/Jungle/blob/master/public/images/Jungler-Payment.PNG?raw=true)
+_Supports payment testing using Stripe Testing._
+
+## User Stories / Features 
+* Sold Out Badge
+* When a product has 0 quantity, a sold out badge should be displayed on the product list page
+
+### Feature: Admin Categories
+* Admin users can list and create new categories
+* Admins can add new products using the new category
+* Restful routes (resources) are used
+
+### User Authentication
+* As a Visitor I can go to the registration page from any page in order to create an account
+* As a Visitor I can sign up for a user account with my e-mail, password, first name and last name
+* As a Visitor I can sign in using my e-mail and password
+* As a User I can log out from any page
+* As a User I cannot sign up with an existing e-mail address (uniqueness validation)
+* Passwords are not stored as plain text in the database. Instead, has_secure_password is used in the User model, leveraging the bcrypt gem
+
+### Order Details Page
+The order page contains items, their image, name, description, quantities and line item totals
+The final amount for the order is displayed
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
