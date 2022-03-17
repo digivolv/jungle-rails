@@ -3,15 +3,15 @@
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
 ### The Home Page
-!['main-page']()
+!['main-page'](https://github.com/digivolv/jungle-rails/blob/master/public/images/home_page.PNG?raw=true)
 _The main page shows off the catelog of all of the products and supports login/signup functionality._
 
 ### My Cart
-!['Cart']()
+!['Cart'](https://github.com/digivolv/jungle-rails/blob/master/public/images/my_cart.PNG?raw=true)
 _Add, remove, and adjust the quantities of items in your cart as needed._
 
 ### Payment Options
-!['Payment'](https://github.com/Vptrinh/Jungle/blob/master/public/images/Jungler-Payment.PNG?raw=true)
+!['Payment'](https://github.com/digivolv/jungle-rails/blob/master/public/images/payment_options.PNG?raw=true)
 _Supports payment testing using Stripe Testing._
 
 ## User Stories / Features 
